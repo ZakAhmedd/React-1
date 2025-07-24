@@ -1,4 +1,5 @@
 # First React Project
+Simple travel journal which uses real locations from google maps.
 
 ## Installation
 
