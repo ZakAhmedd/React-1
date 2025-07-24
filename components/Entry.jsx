@@ -1,3 +1,5 @@
+import markerImg from "../images/marker.png";
+
 export default function Entry(props) {
   return (
     <article className="journal-entry">
@@ -5,7 +7,7 @@ export default function Entry(props) {
         <img className="main-image" src={props.img.src} alt={props.img.alt} />
       </div>
       <div>
-        <img className="marker" src="/images/marker.png" alt="marker icon" />
+        <img className="marker" src={markerImg} alt="marker icon" />
         <span>{props.country}</span>
         <a href={props.googleMapsLink}> View on Google Maps</a>
         <h2>{props.title}</h2>
